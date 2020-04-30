@@ -1,6 +1,8 @@
 body, html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h2 {
@@ -16,6 +18,29 @@ p span {
   display: block;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+nav {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav a {
+  color: darkorange;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 #landing {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
@@ -24,8 +49,7 @@ p span {
 
 #landing-page {
   color: white;
-  font-size: 40px;
-  font-family: helvetica;
+  font-size: 200px;
   text-align: center;
   top: 30%;
   left: 50%;
